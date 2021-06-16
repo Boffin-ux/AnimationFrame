@@ -7,7 +7,6 @@ const start = document.querySelector('.start'),
 let swimInterval,
    animate = false,
    count = 0;
-console.log('count: ', count);
 
 const swimAnimate = () => {
    swimInterval = requestAnimationFrame(swimAnimate);

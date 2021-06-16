@@ -1,0 +1,26 @@
+.wrapper{
+   width: 1200px;
+   height: 800px;
+   background: url(../img/morya-grecii.jpg) no-repeat;
+   margin: 0 auto;
+}
+.boat{
+   width: 350px;
+   height: 350px;
+   background: url(../img/boat-vector.png) no-repeat;
+   position: relative;
+   top: 80px;
+}
+.start,
+.reset {
+   position: relative;
+   left: 50%;
+   transform: translate(-50%, 0);
+   font-size: 18px;
+   height: 50px;
+   border-radius: 7px;
+   border: 2px solid;
+   padding: 10px;
+   margin: 10px;
+   cursor: pointer;
+}
